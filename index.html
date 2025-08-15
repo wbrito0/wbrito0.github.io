@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wesley Brito - Portfólio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #1565c0;
+      --secondary: #1976d2;
+      --bg: #f4f6f9;
+      --text: #333;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.4rem;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #ffd54f;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+      display: grid;
+      gap: 30px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      color: var(--primary);
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e3f2fd;
+      color: var(--primary);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      margin: 3px;
+    }
+
+    .project-card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .project-card a {
+      text-decoration: none;
+      color: var(--secondary);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="_img\eu.jpg" alt="Foto de Wesley Brito">
+    <h1>Wesley Brito</h1>
+    <p>Ciência de Dados | DataOps | Machine Learning</p>
+    <div class="social-links">
+      <a href="mailto:wesleybritowx@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/wesley-brito-211bb4263" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/wbrito0" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>📌 Resumo</h2>
+      <p>Sou estudante de Ciência de Dados com experiência em projetos de Machine Learning, análise de dados e automação. Atualmente curso graduação em Data Science pela Estácio e possuo certificação em Data Analytics pelo Google. Desenvolvo soluções que otimizam tarefas, automatizam coletas de dados e geram insights com Power BI, Python e BigQuery.</p>
+    </section>
+
+    <section>
+      <h2>💼 Experiência Profissional</h2>
+      <h3>Analista de Suporte Jr. | DataOps — Mindsight</h3>
+      <p><em>São Paulo, SP | Jul 2024 – Atual</em></p>
+      <ul>
+        <li>Contribuo com soluções junto à equipe de dados para otimização de processos.</li>
+        <li>Automatização de tarefas com Python, Pandas, BigQuery e API Google Sheets.</li>
+        <li>Apoio clientes na extração de valor máximo da plataforma de dados.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎓 Educação</h2>
+      <p><strong>Graduação em Data Science</strong> — Universidade Estácio de Sá | Jan 2024 – Jun 2026</p>
+    </section>
+
+    <section>
+      <h2>📜 Certificações</h2>
+      <ul>
+        <li>Data Analytics — Coursera | Jun 2024 <a href="https://www.coursera.org/account/accomplishments/professional-cert/CBX9QRHHK9BT">Link</a></li>
+        <li>Desenvolvimento de Aplicações em Python — Estácio | Dez 2024 <a href="https://certificado.estacio.br/e790ac557a13169ee1c68cf">Link</a></li>
+        <li>Técnicas de IA: Machine Learning e PLN — Estácio | Jun 2025 <a href="#">Link</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Habilidades Técnicas</h2>
+      <p>
+        <span class="badge">Python</span>
+        <span class="badge">Pandas</span>
+        <span class="badge">NumPy</span>
+        <span class="badge">Scikit-learn</span>
+        <span class="badge">TensorFlow</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Google BigQuery</span>
+        <span class="badge">Databricks</span>
+        <span class="badge">Power BI</span>
+        <span class="badge">Looker Studio</span>
+        <span class="badge">Selenium</span>
+        <span class="badge">Jupyter</span>
+        <span class="badge">APIs</span>
+        <span class="badge">Data Lakehouse</span>
+        <span class="badge">ETL</span>
+      </p>
+    </section>
+
+    <section>
+      <h2>🚀 Projetos Destaque</h2>
+
+      <div class="project-card">
+        <h3>Dashboard de Resultados com Python e Power BI</h3>
+        <p>Limpeza, tratamento e feature engineering com Python, integração com Power BI e atualização contínua de dados.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Modelo Preditivo de Risco de Crédito</h3>
+        <p>Análise exploratória, engenharia de features, comparação de algoritmos e documentação para MLOps.</p>
+        <a href="credito.html">Ver projeto</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Automação de Tarefas no Google Sheets</h3>
+        <p>Atualização automática de dashboards no Looker Studio usando Selenium, Pandas e API Google Sheets.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Classificação de Sentimento em E-mails</h3>
+        <p>IA para análise de sentimentos em tempo real e monitoramento de padrões de pré-churn.</p>
+        <a href="#">Ver projeto</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Wesley Brito | Feito com ❤️ e Ciência de Dados
+  </footer>
+
+</body>
+</html>
